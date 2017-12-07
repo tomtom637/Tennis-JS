@@ -4,14 +4,9 @@ body { font-family: 'Ranchers', cursive; }
 
 .main-container {
 	height: 100vh;
-	background: rgba(48,21,21,1);
-	background: -moz-linear-gradient(-45deg, rgba(48,21,21,1) 0%, rgba(97,0,19,1) 100%);
-	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(48,21,21,1)), color-stop(100%, rgba(97,0,19,1)));
-	background: -webkit-linear-gradient(-45deg, rgba(48,21,21,1) 0%, rgba(97,0,19,1) 100%);
-	background: -o-linear-gradient(-45deg, rgba(48,21,21,1) 0%, rgba(97,0,19,1) 100%);
-	background: -ms-linear-gradient(-45deg, rgba(48,21,21,1) 0%, rgba(97,0,19,1) 100%);
-	background: linear-gradient(135deg, rgba(48,21,21,1) 0%, rgba(97,0,19,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#301515', endColorstr='#610013', GradientType=1 ); }
+	background: #136a8a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .main-container h1 {
 	color: #eee;
