@@ -14,21 +14,19 @@ body { font-family: 'Ranchers', cursive; }
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#301515', endColorstr='#610013', GradientType=1 ); }
 
 .main-container h1 {
-	color: white;
+	color: #eee;
 	font-size: 5em;
 	font-weight: normal;
 	text-align: center;
-	padding: 20px 0;
-}
+	padding: 20px 0; 
+    text-shadow: 10px 10px 2px rgba(0, 0, 0, .4);}
 
 .canvas-container {
 	display: flex;
-	margin: auto;
-}
+	margin: auto; }
 
 canvas {
 	margin: auto;
 	border: 5px solid #444;
 	border-radius: 10px;
-	display: block;
-}
+	display: block; }
