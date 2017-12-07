@@ -2,7 +2,7 @@ var canvas;
 var canvasContext;
 var ballX = 0;
 var ballY = 0;
-var ballSpeedX = 5;
+var ballSpeedX = 4;
 var ballSpeedY = 2;
 
 var player1Score = 0;
@@ -67,7 +67,7 @@ function ballReset() {
 	ballX = canvas.width / 2;
 	ballY = canvas.height / 2;
 	setTimeout(function() {
-		ballSpeedX = 5;
+		ballSpeedX = 4;
 	    ballSpeedY = 0;
 	}, 500);
 	
@@ -75,9 +75,9 @@ function ballReset() {
 
 function computerMovement() {
 	var paddle2YCenter = paddle2Y + (PADDLE_HEIGHT / 2);
-	if(paddle2YCenter < ballY - 35) {
+	if(paddle2YCenter < ballY - 50) {
 		paddle2Y += 6;
-	} else if(paddle2YCenter > ballY + 35) {
+	} else if(paddle2YCenter > ballY + 50) {
 		paddle2Y -= 6;
 	}
 }
@@ -134,7 +134,7 @@ function drawEverything() {
 		canvasContext.fillStyle = 'white';
 
 		if(player1Score >= WINNING_SCORE) {
-			canvasContext.fillText("You Won !!", 315, 200);
+			canvasContext.fillText("YOU  WON !!", 320, 200);
 		} else if(player2Score >= WINNING_SCORE) {
 			canvasContext.fillText("Computer Won !!", 315, 200);
 		}
@@ -152,6 +152,7 @@ function drawEverything() {
 	//this is our ball
 	colorCircle(ballX, ballY, 10, 'white');
 	//this is our score text
+	canvasContext.fillStyle = 'red';
 	canvasContext.fillText(player1Score, 100, 100);
 	canvasContext.fillText(player2Score, canvas.width - 100, 100);
 }
