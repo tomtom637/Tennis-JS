@@ -35,5 +35,14 @@
     "rating": "Trip ★★★",
     "transportation": "no transportations",
     "price": 95
+   }, {
+    "id": 5, 
+    "country": "United Emirates",
+    "city": "Dubai",
+    "discount": "-38%",
+    "description": "15 days / 14 nights, breakfast included",
+    "rating": "Trip ★★★★",
+    "transportation": "departures from London",
+    "price": 750
    }
 ]
