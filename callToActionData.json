@@ -53,5 +53,23 @@
     "rating": "No one has rated",
     "transportation": "departures from Nasa's launching pod",
     "price": "free"
+   }, {
+    "id": 7, 
+    "country": "Midgar",
+    "city": "Sector 7",
+    "discount": "-12%",
+    "description": "2 days / 3 nights",
+    "rating": "Trip ★",
+    "transportation": "departures from Costa del Sol",
+    "price": 2000
+   }, {
+    "id": 8, 
+    "country": "Middle Earth",
+    "city": "Mordor",
+    "discount": "-64%",
+    "description": "7 days / 8 nights, breakfast included",
+    "rating": "Trip ★★★",
+    "transportation": "by horse from Erebor(Lonely Mountains)",
+    "price": 780
    }
 ]
