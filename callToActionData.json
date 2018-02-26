@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1, 
+    "country": "Italy",
+    "city": "Florencia",
+    "discount": "-37%",
+    "description": "3 days / 2 nights all included",
+    "rating": "Trip ★★★★",
+    "transportation": "departures from London, Liverpool and Grimsby",
+    "price": 300
+   }, {
+    "id": 2, 
+    "country": "Spain",
+    "city": "Barcelona",
+    "discount": "-85%",
+    "description": "5 days / 6 nights all included",
+    "rating": "Trip ★",
+    "transportation": "departures from Manchester and Liverpool",
+    "price": 767
+   }, {
+    "id": 3, 
+    "country": "Thailand",
+    "city": "Bangkok",
+    "discount": "-15%",
+    "description": "15 days / 15 nights, breakfast included",
+    "rating": "Trip ★★",
+    "transportation": "departures from Paris, London, Dublin and Edinburg",
+    "price": 1200
+   }, {
+    "id": 4, 
+    "country": "Scotland",
+    "city": "Glasgow",
+    "discount": "-18%",
+    "description": "2 days / 1 nights, breakfast included",
+    "rating": "Trip ★★★",
+    "transportation": "no transportations",
+    "price": 95
+   },
+]
