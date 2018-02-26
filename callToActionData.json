@@ -44,5 +44,14 @@
     "rating": "Trip ★★★★",
     "transportation": "departures from London",
     "price": 780
+   }, {
+    "id": 6, 
+    "country": "The Moon",
+    "city": "Amstrong Landing Site",
+    "discount": "None",
+    "description": "Forever there, breakfast included",
+    "rating": "No one has rated",
+    "transportation": "departures from Nasa's launching pod",
+    "price": "free"
    }
 ]
